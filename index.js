@@ -18,6 +18,11 @@ app.get('/', function(req, res) {
 	res.render('home');
 });
 
+app.get('/about', function(req, res)
+{
+	res.render('about');
+});
+
 app.listen(port, function() {
 	console.log('Our app is running on http://localhost:' + port);
 });
