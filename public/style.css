@@ -1,5 +1,12 @@
 body 						
 { 
-padding-top:50px;
+    padding-top:50px;
 }
-.container .jumbotron { border-radius:40px; }
+.container .jumbotron
+{ 
+    border-radius:40px;
+}
+
+.other-color {
+    background: hotpink !important;
+}
