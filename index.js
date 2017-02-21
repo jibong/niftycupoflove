@@ -23,6 +23,11 @@ app.get('/about', function(req, res)
 	res.render('about');
 });
 
+app.get('/nifty', function(req, res)
+{
+	res.render('nifty');
+});
+
 app.listen(port, function() {
 	console.log('Our app is running on http://localhost:' + port);
 });
