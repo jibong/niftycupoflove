@@ -7,6 +7,6 @@ body
     border-radius:40px;
 }
 
-.other-color {
-    background: hotpink !important;
+.jumbotron {
+    background-color: hotpink
 }
